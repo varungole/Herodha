@@ -1,0 +1,172 @@
+.navbar-main {
+  background-color: #333; 
+  color: white; 
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -1rem;
+  margin-left: -8px;
+  margin-right: -1rem;
+}
+
+.Herodha {
+  font-size: 1.5em; /* Adjust font size as needed */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.list-components {
+  list-style: none;
+  display: flex;
+}
+
+.list-item {
+  margin-right: 15px; /* Adjust margin as needed */
+  cursor: pointer; /* Add pointer cursor for better user experience */
+}
+
+/* You can add additional styling for hover effects, active states, etc. as needed */
+.list-item:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.home {
+  text-align: center;
+  padding: 30px; /* Increase padding */
+}
+
+.home img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px; /* Increase margin */
+}
+
+.home-main-title {
+  font-size: 2.5em; /* Increase font size */
+  margin-bottom: 15px; /* Increase margin */
+}
+
+.home-sub-title {
+  color: #666;
+  font-size: 1.2em; /* Increase font size */
+  margin-bottom: 30px; /* Increase margin */
+}
+
+.signup {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px; /* Increase padding */
+  font-size: 1.2em; /* Increase font size */
+  border: none;
+  border-radius: 8px; /* Increase border radius */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup:hover {
+  background-color: #2980b9;
+}
+
+.signup-main {
+  text-align: center;
+  max-width: 400px; /* Adjust max-width as needed */
+  margin: auto;
+  padding: 20px;
+}
+
+.signup-now {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.phone-text {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.phone {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.continue {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.continue:hover {
+  background-color: #2980b9;
+}
+
+.otp-label {
+  font-size: 0.8em;
+  color: #888;
+  display: block;
+  margin-top: 10px;
+}
+
+.signup-main {
+  text-align: center;
+  max-width: 400px; /* Adjust max-width as needed */
+  margin: auto;
+  padding: 20px;
+}
+
+.signup-now {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.phone-text {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.input-fields {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.select-value,
+.phone {
+  flex-grow: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 3rem;
+}
+
+
+.continue {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.continue:hover {
+  background-color: #2980b9;
+}
+
+.otp-label {
+  font-size: 0.8em;
+  color: #888;
+  display: block;
+  margin-top: 10px;
+}
